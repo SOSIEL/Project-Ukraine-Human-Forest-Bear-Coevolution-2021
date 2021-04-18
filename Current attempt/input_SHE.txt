@@ -12,7 +12,7 @@
 >> in Mode 1, only a SOSIEL Harvest configuration file is used. When in Mode 2, both a
 >> SOSIEL Harvest and a Biomass Harvest configuration file are used.
    "SOSIEL Harvest"	input_SOSIEL_SHE.txt
->>   "Biomass Harvest"	input_BHE_SHE.txt
+   "Biomass Harvest"	input_BHE_SHE.txt
 
    ManagementAreas      ecoregions_square.img
 
