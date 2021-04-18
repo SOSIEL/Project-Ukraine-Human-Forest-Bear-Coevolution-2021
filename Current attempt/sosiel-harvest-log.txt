@@ -1,5 +1,0 @@
-  Loading DecisionOptionAttributes from input_SOSIEL_SHE_DecisionOptionAttributes.csv
-  Loading DecisionOptionAntecedentAttributes from input_SOSIEL_SHE_DecisionOptionAntecedentAttributes.csv
-  Loading AgentGoalAttributes from input_SOSIEL_SHE_AgentGoalAttributes.csv
-  Loading AgentVariables from input_SOSIEL_SHE_AgentVariables.csv
-  Loading AgentDecisionOptionAttributes from input_SOSIEL_SHE_AgentDecisionOptionAttributes.csv
