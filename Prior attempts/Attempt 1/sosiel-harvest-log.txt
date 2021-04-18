@@ -1,0 +1,224 @@
+  Loading DecisionOptionAttributes from input_SOSIEL_SHE_DecisionOptionAttributes.csv
+  Loading DecisionOptionAntecedentAttributes from input_SOSIEL_SHE_DecisionOptionAntecedentAttributes.csv
+  Loading AgentGoalAttributes from input_SOSIEL_SHE_AgentGoalAttributes.csv
+  Loading AgentVariables from input_SOSIEL_SHE_AgentVariables.csv
+  Loading AgentDecisionOptionAttributes from input_SOSIEL_SHE_AgentDecisionOptionAttributes.csv
+  SosielHarvestAlgorithm: Initializing agents...
+  SosielHarvestAlgorithm: Initializing probabilities...
+	Run Sosiel with parameters:
+	Area:FM1_1
+		Biomass:               582,662
+		Harvested:                   0
+		MaturityPercent:         22.79
+	Area:FM1_2
+		Biomass:               633,810
+		Harvested:                   0
+		MaturityPercent:         64.74
+	Area:FM1_3
+		Biomass:               581,608
+		Harvested:                   0
+		MaturityPercent:         20.47
+	Area:FM2_2
+		Biomass:               633,810
+		Harvested:                   0
+		MaturityPercent:         64.74
+	Area:FM2_3
+		Biomass:               581,608
+		Harvested:                   0
+		MaturityPercent:         20.47
+	Area:FM2_4
+		Biomass:               634,064
+		Harvested:                   0
+		MaturityPercent:         64.49
+  SosielHarvestAlgorithm: Initializing first iteration...
+	Run Sosiel with parameters:
+	Area:FM1_1
+		Biomass:               582,542
+		Harvested:              15,555
+		MaturityPercent:         22.78
+	Area:FM1_2
+		Biomass:               633,540
+		Harvested:              19,190
+		MaturityPercent:         64.72
+	Area:FM1_3
+		Biomass:               581,430
+		Harvested:              15,555
+		MaturityPercent:         20.45
+	Area:FM2_2
+		Biomass:               633,540
+		Harvested:              17,731
+		MaturityPercent:         64.72
+	Area:FM2_3
+		Biomass:               581,430
+		Harvested:               7,525
+		MaturityPercent:         20.45
+	Area:FM2_4
+		Biomass:               633,924
+		Harvested:              18,193
+		MaturityPercent:         64.48
+	Sosiel generated new prescriptions:
+		Area      Name                Based on            Variable                                     Value
+		2         MM100-1_DO2         MM100-1_DO1         TargetHarvestSize                         947.3633
+		2         MM101-1_DO2         MM101-1_DO1         TargetHarvestSize                         941.3549
+		4         MM100-1_DO3         MM100-1_DO1         TargetHarvestSize                         366.2797
+		4         MM101-1_DO3         MM101-1_DO1         TargetHarvestSize                          549.952
+		3         MM100-1_DO4         MM100-1_DO1         TargetHarvestSize                         928.0571
+		3         MM101-1_DO4         MM101-1_DO1         TargetHarvestSize                         810.1136
+		2         MM100-1_DO5         MM100-1_DO1         TargetHarvestSize                         915.1211
+		2         MM101-1_DO5         MM101-1_DO1         TargetHarvestSize                         907.2618
+		1         MM100-1_DO6         MM100-1_DO1         TargetHarvestSize                          563.308
+		1         MM101-1_DO6         MM101-1_DO1         TargetHarvestSize                         951.1351
+		3         MM100-1_DO7         MM100-1_DO1         TargetHarvestSize                         525.3987
+		3         MM101-1_DO7         MM101-1_DO1         TargetHarvestSize                         722.2692
+	Sosiel selected the following prescriptions:
+		Area      Prescriptions
+		FM1_2     MM100-1_DO5 MM101-1_DO6
+		FM1_3     MM100-1_DO5 MM101-1_DO6
+		FM1_1     MM100-1_DO5 MM101-1_DO6
+		FM2_2     MM100-1_DO2 MM101-1_DO2
+		FM2_3     MM100-1_DO2 MM101-1_DO2
+		FM2_4     MM100-1_DO2 MM101-1_DO2
+	Run Sosiel with parameters:
+	Area:FM1_1
+		Biomass:               620,833
+		Harvested:              15,555
+		MaturityPercent:         41.72
+	Area:FM1_2
+		Biomass:               648,012
+		Harvested:               5,427
+		MaturityPercent:         65.43
+	Area:FM1_3
+		Biomass:               620,379
+		Harvested:               7,607
+		MaturityPercent:         39.87
+	Area:FM2_2
+		Biomass:               648,012
+		Harvested:              18,193
+		MaturityPercent:         65.43
+	Area:FM2_3
+		Biomass:               620,379
+		Harvested:               7,607
+		MaturityPercent:         39.87
+	Area:FM2_4
+		Biomass:               648,268
+		Harvested:               5,980
+		MaturityPercent:         65.25
+	Run Sosiel with parameters:
+	Area:FM1_1
+		Biomass:               620,668
+		Harvested:              26,104
+		MaturityPercent:         41.70
+	Area:FM1_2
+		Biomass:               648,003
+		Harvested:               2,736
+		MaturityPercent:         65.44
+	Area:FM1_3
+		Biomass:               620,190
+		Harvested:              18,714
+		MaturityPercent:         39.87
+	Area:FM2_2
+		Biomass:               648,003
+		Harvested:               5,445
+		MaturityPercent:         65.44
+	Area:FM2_3
+		Biomass:               620,190
+		Harvested:              11,685
+		MaturityPercent:         39.87
+	Area:FM2_4
+		Biomass:               648,265
+		Harvested:               2,507
+		MaturityPercent:         65.26
+	Sosiel generated new prescriptions:
+		Area      Name                Based on            Variable                                     Value
+		3         MM100-1_DO8         MM100-1_DO6         TargetHarvestSize                         539.2268
+		3         MM101-1_DO8         MM101-1_DO5         TargetHarvestSize                         521.0416
+		2         MM100-1_DO9         MM100-1_DO6         TargetHarvestSize                          511.191
+		2         MM101-1_DO9         MM101-1_DO5         TargetHarvestSize                         821.8855
+		1         MM100-1_DO10        MM100-1_DO6         TargetHarvestSize                         529.8552
+		1         MM101-1_DO10        MM101-1_DO5         TargetHarvestSize                         831.1333
+		3         MM100-1_DO11        MM100-1_DO4         TargetHarvestSize                         753.3447
+		3         MM101-1_DO11        MM101-1_DO4         TargetHarvestSize                         760.6547
+		4         MM100-1_DO12        MM100-1_DO4         TargetHarvestSize                         374.3305
+		4         MM101-1_DO12        MM101-1_DO4         TargetHarvestSize                         753.1682
+		2         MM100-1_DO13        MM100-1_DO4         TargetHarvestSize                         878.6695
+		2         MM101-1_DO13        MM101-1_DO4         TargetHarvestSize                         800.9084
+	Sosiel selected the following prescriptions:
+		Area      Prescriptions
+		FM1_2     MM100-1_DO8 MM101-1_DO10
+		FM1_3     MM100-1_DO8 MM101-1_DO10
+		FM1_1     MM100-1_DO8 MM101-1_DO10
+		FM2_2     MM100-1_DO13 MM101-1_DO13
+		FM2_3     MM100-1_DO13 MM101-1_DO13
+		FM2_4     MM100-1_DO13 MM101-1_DO13
+	Run Sosiel with parameters:
+	Area:FM1_1
+		Biomass:               641,059
+		Harvested:              11,838
+		MaturityPercent:         75.53
+	Area:FM1_2
+		Biomass:               657,198
+		Harvested:               2,874
+		MaturityPercent:         84.01
+	Area:FM1_3
+		Biomass:               640,953
+		Harvested:              11,503
+		MaturityPercent:         75.03
+	Area:FM2_2
+		Biomass:               657,198
+		Harvested:               3,797
+		MaturityPercent:         84.01
+	Area:FM2_3
+		Biomass:               640,953
+		Harvested:              18,100
+		MaturityPercent:         75.03
+	Area:FM2_4
+		Biomass:               657,192
+		Harvested:               6,252
+		MaturityPercent:         84.02
+	Run Sosiel with parameters:
+	Area:FM1_1
+		Biomass:               640,998
+		Harvested:              12,204
+		MaturityPercent:         75.53
+	Area:FM1_2
+		Biomass:               656,999
+		Harvested:              17,852
+		MaturityPercent:         84.00
+	Area:FM1_3
+		Biomass:               640,779
+		Harvested:               9,614
+		MaturityPercent:         75.01
+	Area:FM2_2
+		Biomass:               656,999
+		Harvested:              10,911
+		MaturityPercent:         84.00
+	Area:FM2_3
+		Biomass:               640,779
+		Harvested:              25,001
+		MaturityPercent:         75.01
+	Area:FM2_4
+		Biomass:               657,175
+		Harvested:               5,221
+		MaturityPercent:         84.02
+	Sosiel generated new prescriptions:
+		Area      Name                Based on            Variable                                     Value
+		2         MM100-1_DO14        MM100-1_DO10        TargetHarvestSize                         188.8182
+		2         MM101-1_DO14        MM101-1_DO9         TargetHarvestSize                         447.9464
+		3         MM100-1_DO15        MM100-1_DO10        TargetHarvestSize                         442.3871
+		3         MM101-1_DO15        MM101-1_DO9         TargetHarvestSize                         490.5687
+		1         MM100-1_DO16        MM100-1_DO10        TargetHarvestSize                         492.6641
+		1         MM101-1_DO16        MM101-1_DO9         TargetHarvestSize                         788.7243
+		2         MM100-1_DO17        MM100-1_DO11        TargetHarvestSize                         667.9359
+		2         MM101-1_DO17        MM101-1_DO11        TargetHarvestSize                          34.4996
+		4         MM100-1_DO18        MM100-1_DO11        TargetHarvestSize                         455.1304
+		4         MM101-1_DO18        MM101-1_DO11        TargetHarvestSize                         605.1653
+		3         MM100-1_DO19        MM100-1_DO11        TargetHarvestSize                         582.2515
+		3         MM101-1_DO19        MM101-1_DO11        TargetHarvestSize                         580.0371
+	Sosiel selected the following prescriptions:
+		Area      Prescriptions
+		FM1_2     MM100-1_DO16 MM101-1_DO16
+		FM1_3     MM100-1_DO16 MM101-1_DO16
+		FM1_1     MM100-1_DO16 MM101-1_DO16
+		FM2_2     MM100-1_DO17 MM101-1_DO18
+		FM2_3     MM100-1_DO17 MM101-1_DO18
+		FM2_4     MM100-1_DO17 MM101-1_DO18
