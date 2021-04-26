@@ -1,0 +1,21 @@
+LandisData  "Output Biomass Reclass"
+
+Timestep   25
+
+
+ReclassMaps
+
+>> Map Name    Forest Type    Species
+>> --------    -------------  -------
+   
+               
+  rclss  ->   Querceta             querrope
+              Carpineta            carpibet 
+              Fageta               fagussyl
+              Acereta              acerpseu
+              Abieta               abiesalb
+              Piceeta              piceaabi
+         
+
+
+MapFileNames   2_bms_rclss_af_bl/bms-{reclass-map-name}-{timestep}.tif

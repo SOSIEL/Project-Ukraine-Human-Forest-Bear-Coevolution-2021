@@ -1,0 +1,191 @@
+LandisData "BDA Agent"
+
+BDAAgentName		Ips
+BDPCalibrator		1
+SRDMode			mean
+
+
+>>-------- Regional Outbreak Inputs -------------
+OutbreakPattern		CyclicUniform <<CyclicNormal or CyclicUniform
+MaxInterval		6
+MinInterval		5
+TimeSinceLastEpidemic	1		
+TemporalType 		variablepulse	
+MinROS			0
+MaxROS			3
+
+
+>>-------- Dispersal Inputs ----------------------
+Dispersal		yes		
+DispersalRate		257	<< Kautz Kernels
+EpidemicThresh		0.01   <<
+InitialEpicenterNum	1000      <<
+OutbreakEpicenterCoeff	0.01    << increasing this param decreases # of new epicenters
+OutbreakEpicenterThresh	0.0
+SeedEpicenter		yes	<<yes or no
+SeedEpicenterCoeff	0.01
+DispersalTemplate	MaxRadius	<<MaxRadius, 4N,	
+
+
+>>-------- Neighborhood Resource Inputs ----------- 
+NeighborFlag	yes			
+NeighborSpeedUp 3x	<< Ips typographus has aggregation pheromones
+NeighborRadius	514			
+NeighborShape	uniform			
+NeighborWeight	30
+
+
+>>-- Intensity Class Thresholds -- 
+IntensityClass2_BDP 	0.5	<< Hence I hope to get a lot of low severity events
+IntensityClass3_BDP 	0.8
+
+
+>>Ecoregion Modifiers
+
+e0121	0.6
+e0122	0.6
+e0131	0.6
+e0132	0.6
+e0221	0.5625
+e0222	0.5625
+e0231	0.5625
+e0232	0.5625
+e0321	0.525
+e0322	0.525
+e0331	0.525
+e0332	0.525
+e0421	0.4875
+e0422	0.4875
+e0431	0.4875
+e0432	0.4875
+e0521	0.45
+e0522	0.45
+e0531	0.45
+e0532	0.45
+e0621	0.4125
+e0622	0.4125
+e0631	0.4125
+e0632	0.4125
+e0721	0.375
+e0722	0.375
+e0731	0.375
+e0732	0.375
+e0821	0.3375
+e0822	0.3375
+e0831	0.3375
+e0832	0.3375
+e0921	0.3
+e0922	0.3
+e0931	0.3
+e0932	0.3
+e1021	0.2625
+e1022	0.2625
+e1031	0.2625
+e1032	0.2625
+e1121	0.225
+e1122	0.225
+e1131	0.225
+e1132	0.225
+e1221	0.1875
+e1222	0.1875
+e1231	0.1875
+e1232	0.1875
+e1321	0.15
+e1322	0.15
+e1331	0.15
+e1332	0.15
+e1421	0.1125
+e1422	0.1125
+e1431	0.1125
+e1432	0.1125
+e1521	0.075
+e1522	0.075
+e1531	0.075
+e1532	0.075
+e1621	0.0375
+e1622	0.0375
+e1631	0.0375
+e1632	0.0375
+e1721	0
+e1722	0
+e1731	0
+e1732	0
+e1821	-0.0375
+e1822	-0.0375
+e1831	-0.0375
+e1832	-0.0375
+e1921	-0.075
+e1922	-0.075
+e1931	-0.075
+e1932	-0.075
+e2021	-0.1125
+e2022	-0.1125
+e2031	-0.1125
+e2032	-0.1125
+e2121	-0.15
+e2122	-0.15
+e2131	-0.15
+e2132	-0.15
+e2221	-0.1875
+e2222	-0.1875
+e2231	-0.1875
+e2232	-0.1875
+e2321	-0.225
+e2322	-0.225
+e2331	-0.225
+e2332	-0.225
+e2421	-0.2625
+e2422	-0.2625
+e2431	-0.2625
+e2432	-0.2625
+e2521	-0.3
+e2522	-0.3
+e2531	-0.3
+e2532	-0.3
+e2621	-0.3375
+e2622	-0.3375
+e2631	-0.3375
+e2632	-0.3375
+e2721	-0.375
+e2722	-0.375
+e2731	-0.375
+e2732	-0.375
+e2821	-0.4125
+e2822	-0.4125
+e2831	-0.4125
+e2832	-0.4125
+e2921	-0.45
+e2922	-0.45
+e2931	-0.45
+e2932	-0.45
+e3021	-0.4875
+e3022	-0.4875
+e3031	-0.4875
+e3032	-0.4875
+
+
+	
+
+
+DisturbanceModifiers
+>>SRD Modifer	Duration	Type
+0.1		4		Wind 	<< Pasztor (2014)
+
+
+
+BDASpeciesParameters 
+>>        					| 		Susceptibility		   | Special
+>>Species  MinorHost    2ndHost      MajorHost  |  Class3        Class2        Class1	   | Dead
+>>Name     Age SRDProb  Age SRDProb  Age SRDProb|  Age MortProb  Age MortProb  Age MortProb| Fuel?
+>> ---------------------------------------------------------------------------------------------
+piceaabi    20  0.2     40    0.5    80   0.8      20   0.02      40   0.05    80   0.04     yes
+
+
+IgnoredSpecies
+abiesalb
+acerpseu
+carpibet
+fagussyl
+querrope
+
+

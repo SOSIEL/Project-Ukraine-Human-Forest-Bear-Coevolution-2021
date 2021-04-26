@@ -1,12 +1,170 @@
-LandisData	"Ecoregions"		
-
->> 	Map Code		
->> Active	Name	Description
->> --------------------------------------------------------			
-   yes	1	1	"Eco1"
-   yes	2	2	"Eco2"
-   yes	3	3	"Eco3"
-   yes	4	4	"Eco4"
+LandisData  "Ecoregions"
 
 
-
+>>Active MapCode Name   Description
+			
+no	0	NoData	"No data"
+			
+			
+			
+yes	121	e0121	"Warm 1.1 gentle-moderate lower slopes"
+yes	122	e0122	"Warm 1.1 steep lower slopes"
+yes	131	e0131	"Warm 1.1 gentle-moderate upper slopes"
+yes	132	e0132	"Warm 1.1 steep upper slopes"
+			
+yes	221	e0221	"Warm 1.1 gentle-moderate lower slopes"
+yes	222	e0222	"Warm 1.1 steep lower slopes"
+yes	231	e0231	"Warm 1.1 gentle-moderate upper slopes"
+yes	232	e0232	"Warm 1.1 steep upper slopes"
+			
+			
+			
+yes	321	e0321	"Warm 2.1 gentle-moderate lower slopes"
+yes	322	e0322	"Warm 2.1 steep lower slopes"
+yes	331	e0331	"Warm 2.1 gentle-moderate upper slopes"
+yes	332	e0332	"Warm 2.1 steep upper slopes"
+			
+yes	421	e0421	"Warm 2.1 gentle-moderate lower slopes"
+yes	422	e0422	"Warm 2.1 steep lower slopes"
+yes	431	e0431	"Warm 2.1 gentle-moderate upper slopes"
+yes	432	e0432	"Warm 2.1 steep upper slopes"
+			
+yes	521	e0521	"Warm 2.1 gentle-moderate lower slopes"
+yes	522	e0522	"Warm 2.1 steep lower slopes"
+yes	531	e0531	"Warm 2.1 gentle-moderate upper slopes"
+yes	532	e0532	"Warm 2.1 steep upper slopes"
+			
+yes	621	e0621	"Warm 2.1 gentle-moderate lower slopes"
+yes	622	e0622	"Warm 2.1 steep lower slopes"
+yes	631	e0631	"Warm 2.1 gentle-moderate upper slopes"
+yes	632	e0632	"Warm 2.1 steep upper slopes"
+			
+			
+			
+yes	721	e0721	"Warm 3.1 gentle-moderate lower slopes"
+yes	722	e0722	"Warm 3.1 steep lower slopes"
+yes	731	e0731	"Warm 3.1 gentle-moderate upper slopes"
+yes	732	e0732	"Warm 3.1 steep upper slopes"
+			
+yes	821	e0821	"Warm 3.1 gentle-moderate lower slopes"
+yes	822	e0822	"Warm 3.1 steep lower slopes"
+yes	831	e0831	"Warm 3.1 gentle-moderate upper slopes"
+yes	832	e0832	"Warm 3.1 steep upper slopes"
+			
+yes	921	e0921	"Warm 3.1 gentle-moderate lower slopes"
+yes	922	e0922	"Warm 3.1 steep lower slopes"
+yes	931	e0931	"Warm 3.1 gentle-moderate upper slopes"
+yes	932	e0932	"Warm 3.1 steep upper slopes"
+			
+yes	1021	e1021	"Warm 3.1 gentle-moderate lower slopes"
+yes	1022	e1022	"Warm 3.1 steep lower slopes"
+yes	1031	e1031	"Warm 3.1 gentle-moderate upper slopes"
+yes	1032	e1032	"Warm 3.1 steep upper slopes"
+			
+			
+			
+yes	1121	e1121	"Moderately warm 1.1 gentle-moderate lower slopes"
+yes	1122	e1122	"Moderately warm 1.1 steep lower slopes"
+yes	1131	e1131	"Moderately warm 1.1 gentle-moderate upper slopes"
+yes	1132	e1132	"Moderately warm 1.1 steep upper slopes"
+			
+yes	1221	e1221	"Moderately warm 1.1 gentle-moderate lower slopes"
+yes	1222	e1222	"Moderately warm 1.1 steep lower slopes"
+yes	1231	e1231	"Moderately warm 1.1 gentle-moderate upper slopes"
+yes	1232	e1232	"Moderately warm 1.1 steep upper slopes"
+			
+yes	1321	e1321	"Moderately warm 1.1 gentle-moderate lower slopes"
+yes	1322	e1322	"Moderately warm 1.1 steep lower slopes"
+yes	1331	e1331	"Moderately warm 1.1 gentle-moderate upper slopes"
+yes	1332	e1332	"Moderately warm 1.1 steep upper slopes"
+			
+yes	1421	e1421	"Moderately warm 1.1 gentle-moderate lower slopes"
+yes	1422	e1422	"Moderately warm 1.1 steep lower slopes"
+yes	1431	e1431	"Moderately warm 1.1 gentle-moderate upper slopes"
+yes	1432	e1432	"Moderately warm 1.1 steep upper slopes"
+			
+yes	1521	e1521	"Moderately warm 1.1 gentle-moderate lower slopes"
+yes	1522	e1522	"Moderately warm 1.1 steep lower slopes"
+yes	1531	e1531	"Moderately warm 1.1 gentle-moderate upper slopes"
+yes	1532	e1532	"Moderately warm 1.1 steep upper slopes"
+			
+yes	1621	e1621	"Moderately warm 1.1 gentle-moderate lower slopes"
+yes	1622	e1622	"Moderately warm 1.1 steep lower slopes"
+yes	1631	e1631	"Moderately warm 1.1 gentle-moderate upper slopes"
+yes	1632	e1632	"Moderately warm 1.1 steep upper slopes"
+			
+			
+			
+yes	1721	e1721	"Moderately cool 1.1 gentle-moderate lower slopes"
+yes	1722	e1722	"Moderately cool 1.1 steep lower slopes"
+yes	1731	e1731	"Moderately cool 1.1 gentle-moderate upper slopes"
+yes	1732	e1732	"Moderately cool 1.1 steep upper slopes"
+			
+yes	1821	e1821	"Moderately cool 1.1 gentle-moderate lower slopes"
+yes	1822	e1822	"Moderately cool 1.1 steep lower slopes"
+yes	1831	e1831	"Moderately cool 1.1 gentle-moderate upper slopes"
+yes	1832	e1832	"Moderately cool 1.1 steep upper slopes"
+			
+yes	1921	e1921	"Moderately cool 1.1 gentle-moderate lower slopes"
+yes	1922	e1922	"Moderately cool 1.1 steep lower slopes"
+yes	1931	e1931	"Moderately cool 1.1 gentle-moderate upper slopes"
+yes	1932	e1932	"Moderately cool 1.1 steep upper slopes"
+			
+yes	2021	e2021	"Moderately cool 1.1 gentle-moderate lower slopes"
+yes	2022	e2022	"Moderately cool 1.1 steep lower slopes"
+yes	2031	e2031	"Moderately cool 1.1 gentle-moderate upper slopes"
+yes	2032	e2032	"Moderately cool 1.1 steep upper slopes"
+			
+yes	2121	e2121	"Moderately cool 1.1 gentle-moderate lower slopes"
+yes	2122	e2122	"Moderately cool 1.1 steep lower slopes"
+yes	2131	e2131	"Moderately cool 1.1 gentle-moderate upper slopes"
+yes	2132	e2132	"Moderately cool 1.1 steep upper slopes"
+			
+yes	2221	e2221	"Moderately cool 1.1 gentle-moderate lower slopes"
+yes	2222	e2222	"Moderately cool 1.1 steep lower slopes"
+yes	2231	e2231	"Moderately cool 1.1 gentle-moderate upper slopes"
+yes	2232	e2232	"Moderately cool 1.1 steep upper slopes"
+			
+			
+			
+yes	2321	e2321	"Moderately cool 2.1 gentle-moderate lower slopes"
+yes	2322	e2322	"Moderately cool 2.1 steep lower slopes"
+yes	2331	e2331	"Moderately cool 2.1 gentle-moderate upper slopes"
+yes	2332	e2332	"Moderately cool 2.1 steep upper slopes"
+			
+yes	2421	e2421	"Moderately cool 2.1 gentle-moderate lower slopes"
+yes	2422	e2422	"Moderately cool 2.1 steep lower slopes"
+yes	2431	e2431	"Moderately cool 2.1 gentle-moderate upper slopes"
+yes	2432	e2432	"Moderately cool 2.1 steep upper slopes"
+			
+yes	2521	e2521	"Moderately cool 2.1 gentle-moderate lower slopes"
+yes	2522	e2522	"Moderately cool 2.1 steep lower slopes"
+yes	2531	e2531	"Moderately cool 2.1 gentle-moderate upper slopes"
+yes	2532	e2532	"Moderately cool 2.1 steep upper slopes"
+			
+yes	2621	e2621	"Moderately cool 2.1 gentle-moderate lower slopes"
+yes	2622	e2622	"Moderately cool 2.1 steep lower slopes"
+yes	2631	e2631	"Moderately cool 2.1 gentle-moderate upper slopes"
+yes	2632	e2632	"Moderately cool 2.1 steep upper slopes"
+			
+			
+			
+yes	2721	e2721	"Moderately cold 1.1 gentle-moderate lower slopes"
+yes	2722	e2722	"Moderately cold 1.1 steep lower slopes"
+yes	2731	e2731	"Moderately cold 1.1 gentle-moderate upper slopes"
+yes	2732	e2732	"Moderately cold 1.1 steep upper slopes"
+			
+yes	2821	e2821	"Moderately cold 1.1 gentle-moderate lower slopes"
+yes	2822	e2822	"Moderately cold 1.1 steep lower slopes"
+yes	2831	e2831	"Moderately cold 1.1 gentle-moderate upper slopes"
+yes	2832	e2832	"Moderately cold 1.1 steep upper slopes"
+			
+yes	2921	e2921	"Moderately cold 1.1 gentle-moderate lower slopes"
+yes	2922	e2922	"Moderately cold 1.1 steep lower slopes"
+yes	2931	e2931	"Moderately cold 1.1 gentle-moderate upper slopes"
+yes	2932	e2932	"Moderately cold 1.1 steep upper slopes"
+			
+yes	3021	e3021	"Moderately cold 1.1 gentle-moderate lower slopes"
+yes	3022	e3022	"Moderately cold 1.1 steep lower slopes"
+yes	3031	e3031	"Moderately cold 1.1 gentle-moderate upper slopes"
+yes	3032	e3032	"Moderately cold 1.1 steep upper slopes"

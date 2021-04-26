@@ -1,0 +1,19 @@
+LandisData  "Output Biomass"
+
+Timestep  10
+
+MakeTable yes  << Optional parameter
+
+Species           querrope
+                  carpibet
+                  fagussyl
+                  acerpseu
+                  abiesalb
+                  piceaabi
+       
+		
+
+
+MapNames  1_bms_af_bl/{species}-{timestep}.tif
+
+

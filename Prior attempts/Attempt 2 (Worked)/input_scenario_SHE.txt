@@ -24,9 +24,11 @@
    Species   	species.txt
 
    Ecoregions      ecoregions.txt
-   EcoregionsMap   ecoregionsMap.img
+   EcoregionsMap   ecoregions_square.img
 
    CellLength  	100 << meters, 100 x 100 m = 1 ha
+
+
 
 >> -----------------------
 >> SUCCESSION EXTENSIONS
@@ -44,7 +46,9 @@
 >> Disturbance Extension    Initialization File
 >> --------------------	    -------------------
    "SOSIEL Harvest"	    input_SHE.txt	
->>   "Biomass Harvest"	    input_SHE_BHE.txt
+>>   "Biomass Harvest"	    input_BHE_SHE.txt
+>>   "Dynamic Fuel System"  dynamic-fire_SetUpFuel.txt
+>>   "Dynamic Fire System"  dynamic-fire_SetUpFire.txt
 
 
 >>   DisturbancesRandomOrder  yes  	<< optional

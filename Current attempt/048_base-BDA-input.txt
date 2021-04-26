@@ -1,0 +1,16 @@
+LandisData "Base BDA"
+
+Timestep	5
+
+MapNames	5_bda_af_bc/{agentName}-{timestep}.tif
+
+SRDMapNames	5_bda_af_bc/{agentName}-SRD-{timestep}.tif
+
+NRDMapNames	5_bda_af_bc/{agentName}-NRD-{timestep}.tif
+
+BDPMapNames     5_bda_af_bc/{agentName}-BDP-{timestep}.tif
+
+LogFile		5_bda_af_bc/bda_af_bc-log.csv
+
+BDAInputFiles	049_ips_typographus_bc.txt	
+
