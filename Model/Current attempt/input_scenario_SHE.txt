@@ -34,7 +34,7 @@
 
 >> Succession Extension     Initialization File
 >> --------------------     -------------------
-   "Biomass Succession"	    biomass-succession.txt
+   "Biomass Succession"	    input_BSE.txt
 
 
 >> --------------------------
