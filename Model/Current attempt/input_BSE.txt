@@ -4,8 +4,8 @@
 
    SeedingAlgorithm  WardSeedDispersal
 
-   InitialCommunities      046_actual_init_com_v2.txt
-   InitialCommunitiesMap   incom_acfrst2010_30.img
+   InitialCommunities      input_BSE_init_comm.txt
+   InitialCommunitiesMap   input_BSE_init_comm.img
 
 >> CalibrateMode yes
 
