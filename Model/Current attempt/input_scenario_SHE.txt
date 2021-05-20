@@ -56,7 +56,7 @@
 
 >> 	Output Extension		Initialization File
 >> 	----------------		-------------------
->>   "Output Biomass"			output_Biomass.txt		
+   "Output Biomass"			output_Biomass.txt		
 >>   "Output Biomass Reclass"    	output_BiomassReclass.txt	
 >>   "Output Biomass-by-Age"		biomass_by_age.txt
 
