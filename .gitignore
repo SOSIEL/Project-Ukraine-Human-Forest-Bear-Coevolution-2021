@@ -1,14 +1,26 @@
+
+
+# Ignores Jupyter Notebook's checkpoints.
+.ipynb_checkpoints
+
 # Logs
-*-log.csv
-*-log.txt
+*.log
+*log.csv
+*log.txt
+*-log-*.csv
+*-log-*.txt
 simulation-*.log
 
-# Generated metadata
+# Generated data
 Metadata/
-
-# Generated biomass succession data
+biomass/
 biomass-succession/
-
-# Generated outputs
+1_bms_af_bl/
+harvest/
+bda/
 output_*.json
+<<<<<<< Updated upstream
 
+=======
+output_SOSIEL_Harvest*
+>>>>>>> Stashed changes
